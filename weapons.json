@@ -1,0 +1,34 @@
+{
+  "characters": [
+    {
+      "id": 1,
+      "name": "Armandolol",
+      "occupation": "Hacker",
+      "weapon": "keyboard"
+    },
+    {
+      "id": 2,
+      "name": "Samilu",
+      "occupation": "Hacker",
+      "weapon": "keyboard"
+    },
+    {
+      "name": "Pablo",
+      "occupation": "mi niño",
+      "weapon": "garritas",
+      "id": 3
+    },
+    {
+      "name": "Pablo",
+      "occupation": "mi niño",
+      "weapon": "garritas",
+      "id": 4
+    },
+    {
+      "name": "Jose Armando",
+      "occupation": "mi niño",
+      "weapon": "garritas",
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h1>Characters</h1> 
+        <hr> 
+        <div class="row">
+            <div class="col-4">
+                <h3>Characters:</h3>
+                <div class="row" id="char-list">
+
+                </div>
+            </div>
+            <div class="col-8">
+                <h3>Create:</h3>
+                <form id="create-form">
+                    <div class="form-group">
+                      <label for="name">Name: </label>
+                      <input type="text" class="form-control" id="name" placeholder="Name:">
+                    </div>
+                    <div class="form-group">
+                        <label for="occupation">Occupation: </label>
+                        <input type="text" class="form-control" id="occupation" placeholder="TA">
+                      </div>
+                    <div class="form-group">
+                      <label for="weapon">Weapon: </label>
+                      <input type="text" class="form-control" id="weapon" placeholder="Knif">
+                    </div>
+                    <button type="submit" class="btn btn-success">Create</button>
+                  </form>
+                <h3>Update:</h3>
+                <label for="id">ID:</label>
+                <input type="number" min="1" class="form-control" id="charid" placeholder="Character id">
+                <br>
+                <button id="get-char-data" class="btn btn-block btn-info">Get character data</button>
+                <br>
+                <form id="update-form">
+                    <div class="form-group">
+                      <label for="name">Name: </label>
+                      <input type="text" class="form-control" id="name-update" placeholder="Name:">
+                    </div>
+                    <div class="form-group">
+                        <label for="occupation">Occupation: </label>
+                        <input type="text" class="form-control" id="occupation-update" placeholder="TA">
+                      </div>
+                    <div class="form-group">
+                      <label for="weapon">Weapon: </label>
+                      <input type="text" class="form-control" id="weapon-update" placeholder="Knif">
+                    </div>
+                    <button type="submit" class="btn btn-success">Update</button>
+                </form>
+
+            </div>
+        </div>  
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    
+</body>
+</html>
